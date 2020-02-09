@@ -87,10 +87,6 @@ int main()
 
 		window.setMouseCursor(cursor);
 
-		simulation.draw(window);
-		window.display();
-		sf::sleep(sf::seconds(5));
-
 		while (!end)
 		{
 			while (window.pollEvent(sf_event))
@@ -124,7 +120,7 @@ int main()
 			previous_mouse_position = mouse_position;
 			mouse_position = mouse.getPosition(window);
 			end = restart_button.update(mouse_position, mouse.isButtonPressed(mouse.Left), cursor, cursor_type, window);
-			//restart_button.draw(window);
+			restart_button.draw(window);
 
 			window.display();
 		}
