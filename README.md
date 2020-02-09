@@ -37,7 +37,7 @@ Voici un test sous forme de gif animé avec les paramètres présentés dans l'i
 <br/>
 
 <p align="center">
-	<img src="https://i.imgur.com/5PKNQQR.gif" width="700">
+	<img src="https://i.imgur.com/5PKNQQR.gifv" width="700">
 </p>
 
 <br/>
